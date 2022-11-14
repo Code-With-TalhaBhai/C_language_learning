@@ -82,7 +82,7 @@ int fabonacci(int n){
     int fabN1 = fabonacci(n-1);
     int fabN2 = fabonacci(n-2);
 
-    // int fab = fabonacci(n-1) + fabonacci(n-2);
+    // int fab = fabonacci(n-1) + fabonacci(n-2);  
     int fab = fabN1 + fabN2;
     // printf("fab of %d is %d\n",n,fab);
 
