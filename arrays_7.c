@@ -18,6 +18,15 @@ int main(){
     marks[1] = 8902;
     printf("%d\n%d\n%d\nmarks",marks[0],marks[1],marks[2]);
 
+    // char str[][5] = {"First","Second","Third"};
+    char str[3][10] = {"First","Second","Third"};
+    // str[0] = "First";
+    // str[1] = "Second";
+    // str[2] = "Third";
+
+    printf("\n");
+    printf("%s %s %s\n",str[0],str[1],str[2]);
+
 
     int logs[3];
     logs[0] = 23344;
@@ -30,7 +39,7 @@ int main(){
     printf("%d\n%d\n%d\n",metrices[0],metrices[1],metrices[2]);
 
 
-    // int checkInput[3];
+    int checkInput[3];
     printf("Value is ");
     scanf("%d",&checkInput[0]);
     printf("Value is ");
@@ -142,7 +151,7 @@ int main(){
 
 
     // Write a function to reverse an array;
-    int samArr[] = {89,423,4,53,23,532,53,32};
+    // int samArr[] = {89,423,4,53,23,532,53,32};
     int samArr[] = {89,423,4,2324,432,532,53,32};
     size = sizeof(samArr)/sizeof(samArr[0]);
     arrayReverse(samArr,size);
